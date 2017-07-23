@@ -1,0 +1,21 @@
+{
+  "name": "dcr-mutt",
+  "version": "0.1.0",
+  "description": "Docker Compose 'run' module for Mutt.",
+  "keywords": [
+    "docker",
+    "docker compose",
+    "mutt"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/markbirbeck/dcr-mutt",
+  "bugs": "https://github.com/markbirbeck/dcr-mutt/issues",
+  "homepage": "https://github.com/markbirbeck/dcr-mutt",
+  "bin": {
+    "dcr-mutt": "./bin/cli.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "docker-compose-run": "^0.3.1"
+  }
+}

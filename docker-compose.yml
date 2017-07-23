@@ -1,0 +1,6 @@
+version: "2"
+services:
+  mutt:
+    image: fstab/mutt
+    volumes:
+    - ~/.mutt:/home/mutt
