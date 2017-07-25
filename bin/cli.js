@@ -13,4 +13,4 @@ var dcr = require('docker-compose-run');
  * Compose file:
  */
 
-dcr('mutt', path.join(__dirname, '..'));
+dcr('mutt', path.join(__dirname, '..'), 'mutt');
